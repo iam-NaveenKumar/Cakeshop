@@ -1,0 +1,76 @@
+body{
+    background-image: url("avengers.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    margin: auto auto;
+    list-style-type: none;
+    background-color: grey;
+    opacity: 0.6;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+ul li{
+    float: left;
+    padding: 20px 50px;
+}
+
+#profile{
+    float: right;
+}
+
+ul li:hover{
+    color: black;
+    background-color: white;
+}
+
+.loginform{
+    max-width: 400px;
+    margin: 10% auto;
+    text-align: center;
+    background-color:grey;
+    border-radius: 50px;
+    opacity: 0.7;
+}
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.enter{
+    padding: 5px;
+}
+
+#loginbutton{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-radius: 10px;
+    cursor:grabbing;
+}
+#loginbutton:hover{
+    color: white;
+    background-color: black;
+    transform: scale(2,2);
+}
+
+.forgetpass{
+    padding: 10px;
+    font-family: cursive;
+}
+.forgetpass a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+.forgetpass a:hover{
+    color: white;
+    font-family: monospace;
+    text-decoration: dotted black;
+}
